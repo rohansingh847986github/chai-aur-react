@@ -1,4 +1,5 @@
 import './App.css'
+import BgChanger from './components/BgChanger'
 import Card from './components/Card'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
      <h1 className=' bg-green-400 text-black p-4 rounded-4xl mb-4'>Tailind Test</h1>  
      {/* <Card username = 'cahi aur code' btn='Singh'/>
      <Card username='Rohan' /> */}
+     <BgChanger/>
     </>
   )
 }
